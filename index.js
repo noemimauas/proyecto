@@ -10,7 +10,7 @@ const tareaModel = require('./tareaModel.js');
 const app = express()
 const PUERTO = process.env.PUERTO
 
-// Configurar EJS como motor de plantilla
+// Configurar EJS como motor de plantillla
 app.set('view engine', 'ejs');
 
 // Middlewares
